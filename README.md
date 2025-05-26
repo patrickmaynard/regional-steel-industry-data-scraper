@@ -41,7 +41,7 @@ TODO items:
     * https://americansymphony.org/current-season/
     * https://www.nyphil.org/concerts-tickets/ 
     * Second pass: Add university groups 
-* Use pyspider and your smart terminal (which I believe uses Claude) to **quickly** build scrapers for the list above. Scrapers should run once every day, but no more than that. And they should be respectful by not hammering sites, using randomized sleeps to avoid that outcome
+* Use the requests library and your smart terminal (which I believe uses Claude) to **quickly** build scrapers for the list above. Scrapers should run once every day, but no more than that. And they should be respectful by not hammering sites, using randomized sleeps to avoid that outcome
 * Set up a demo email solution that doesn't use generative AI at all, setting up the demo on your personal server behind basic auth 
 * Once you've tested everything in basic form, buy the domain and set up the app with a "beta" label using a DigitalOcean droplet 
 * Set up generative AI. For environmental reasons, be sure to use a small language model (SLM) like the ones described here: https://winder.ai/exploring-small-language-models/

@@ -10,6 +10,8 @@ headers = {
 # Send a GET request with headers
 response = requests.get('https://www.delawaresymphony.org/events/upcoming-events/', headers=headers)
 
+print('Beginning scrape ... ')
+
 #print(response.content)
 
 html_content = response.content
@@ -54,3 +56,5 @@ for eventItem in eventItems:
             print(venueOuter.findChild('a').contents[0].strip())
     #print(something)
     print("============")
+
+print('... scrape finished')

@@ -10,7 +10,7 @@ source bin/activate
 pip install -r requirements.txt
 ```
 
-TODO items:
+## Todo items:
 
 * While waiting for the import script to run at work, put together a list of orchestras to scrape events for, focusing initially on the Northeast Corridor
   * Wilmington

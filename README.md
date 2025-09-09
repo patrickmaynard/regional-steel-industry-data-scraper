@@ -7,7 +7,8 @@ I'm going to put together four or five regional scrapers for orchestra events, t
 ```
 cd path/to/named-scraper
 source bin/activate
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
+python3 scrape.py 
 ```
 
 ## Todo items:

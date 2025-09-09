@@ -1,5 +1,14 @@
 # orchestra-daily-event-scrapers
-I'm going to put together four or five regional scrapers for orchestra events, then use AI to write weekly email newsletters about upcoming performances
+
+I'm going to put together four or five regional scrapers for orchestra events, then use AI to write weekly email newsletters about upcoming performances. 
+
+## Setup instructions 
+
+```
+cd path/to/named-scraper
+source bin/activate
+pip install -r requirements.txt
+```
 
 TODO items:
 

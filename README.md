@@ -15,13 +15,15 @@ python3 scrape.py
 
 * While waiting for the import script to run at work, put together a list of orchestras to scrape events for, focusing initially on the Northeast Corridor
   * Wilmington
-    * https://www.delawaresymphony.org/events/upcoming-events/ -- **partially built, skipping for now because of a js human-user check** 
+    * https://www.delawaresymphony.org/events/upcoming-events/ 
+      **partially built, skipping for now because of a js human-user check** 
     * Second pass: https://www.udel.edu/academics/colleges/cas/units/departments/school-of-music/events/
+      **skipping for similar reasons (403 status)**
   * Providence
     * https://www.riphil.org/events
     * Second pass: Add university groups
     * **Current todo items:**
-      * Clone the Delaware Symfony scraper and adapt it
+      * Clone the University of Delaware scraper and modify it to suit current needs 
       * 
       * 
   * Stamford

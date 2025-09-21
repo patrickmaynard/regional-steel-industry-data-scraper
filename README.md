@@ -1,36 +1,37 @@
 # orchestra-daily-event-scrapers
 
-I'm going to put together four or five regional scrapers for orchestra events, then use AI to write weekly email newsletters about upcoming performances. 
+I'm going to put together four or five regional scrapers for orchestra events, then use AI to write weekly email newsletters about upcoming performances.
 
-## Setup instructions 
+## Setup instructions
 
 ```
 cd path/to/named-scraper
 source bin/activate
 python3 -m pip install -r requirements.txt
-python3 scrape.py 
+python3 scrape.py
 ```
 
 ## Todo items:
 
 * While waiting for the import script to run at work, put together a list of orchestras to scrape events for, focusing initially on the Northeast Corridor
   * Wilmington
-    * https://www.delawaresymphony.org/events/upcoming-events/ 
-      **partially built, skipping for now because of a js human-user check** 
+    * https://www.delawaresymphony.org/events/upcoming-events/
+      **partially built, skipping for now because of a js human-user check**
     * Second pass: https://www.udel.edu/academics/colleges/cas/units/departments/school-of-music/events/
       **skipping for similar reasons (403 status)**
   * Providence
     * https://www.riphil.org/events
     * Second pass: Add university groups
-    * **Current todo items:**
-      * Clone the University of Delaware scraper and modify it to suit current needs 
-      * 
-      * 
+    **skipping for similar reasons (403 status)
   * Stamford
     * Second pass: Orchestra Lumos has a website that's an unscrapable mess. Maybe ask them to upload a cleaned-up CSV file or something
     * Second pass: Add university groups
   * New Haven
     * https://newhavensymphony.org/events/
+    * **current todos:**
+    * Set up a basic scrape. (Partially done -- see todo in scrape script.)
+    *
+    *
     * Second pass: Add university groups
   * Bridgeport
     * https://gbs.org/events/

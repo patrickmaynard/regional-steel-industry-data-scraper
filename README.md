@@ -1,5 +1,5 @@
 This scraper was created and run as part of the process of gathering data for
-the "business environments" graduate management cource at the Berlin School of
+the "business environments" graduate management course at the Berlin School of
 Economics and Law.
 
 The script provides a general look at regional steel competitiveness using
